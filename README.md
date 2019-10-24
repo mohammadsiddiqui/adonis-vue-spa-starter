@@ -1,6 +1,6 @@
-# Adonis API application
+# Adonis + Vue CLI application
 
-This is the boilerplate for creating an API server in AdonisJs, it comes pre-configured with.
+This is the boilerplate for creating an API server in AdonisJs and VueJS CLI tool it comes pre-configured with.
 
 1. Bodyparser
 2. Authentication
@@ -8,16 +8,13 @@ This is the boilerplate for creating an API server in AdonisJs, it comes pre-con
 4. Lucid ORM
 5. Migrations and seeds
 
-## Setup
+## Server Setup
 
-Use the adonis command to install the blueprint
+Used the adonis --api-only command to install the api based application
 
-```bash
-adonis new yardstick --api-only
-```
+## Client Setup
 
-or manually clone the repo and then run `npm install`.
-
+Vue cli application with some tweak configuration in vue.config.json
 
 ### Migrations
 
